@@ -1,0 +1,9 @@
+7000*ym34*f*italy,rome,mossad member*v
+7001*rc22*f*israel,tel aviv,enemy*v
+7002*ym34*o*employees,rony levy,no*v
+7003*tl34*o*managers,rotem,yes*x
+7004*tl34*o*employees,lior,no*v
+7005*tl34*o*missions,1245,no*v
+7006*ym34*f*co,ci,enemy*v
+7007*ym34*f*nitzanim,beer sh,enemy*x
+7008*ym34*o*dir1,file3,yes*x
