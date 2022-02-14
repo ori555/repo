@@ -1,8 +1,8 @@
 import Database
 from constants import *
 
-class EMPLOYEE():
-    def _init_(self, first_name, last_name, id_number, employee_id, manager_id, Role):
+class Employee():
+    def __init__(self, first_name, last_name, id_number, employee_id, manager_id, Role):
         self.__first_name = first_name
         self.__last_name = last_name
         self.__id_number = id_number
@@ -19,7 +19,7 @@ class EMPLOYEE():
     def get_id_number(self):
         return self.__id_number
 
-    def get_employee_id(self):
+    def get_employees_id(self):
         return self._employee_id
 
     def get_manager_id(self):

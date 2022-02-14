@@ -28,11 +28,11 @@ class App:
         self.__display_login_screen()
 
         # For lesson 14 - Cancel the remarks of the next lines
-        """
-        self.__curr_screen = "task_manager"
-        self.__employee = Employee("rony", "cohen", "225682158", "rc22", "ym34", "e")
-        self.__display_task_manager_screen()
-        """
+
+        # self.__curr_screen = "task_manager"
+        # self.__employee = Employee("rony", "cohen", "225682158", "rc22", "ym34", "e")
+        # self.__display_task_manager_screen()
+
 
     def __set_background_image(self):
         """
