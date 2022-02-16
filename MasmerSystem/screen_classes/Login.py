@@ -1,4 +1,6 @@
 from employee_classes.Head import *
+from employee_classes.Manager import *
+from employee_classes.Employee import *
 import Database
 from constants import *
 
@@ -12,7 +14,7 @@ def check_login_details(username, password):
         return"images/errors/wrong_username_or_password.jpg"
                #WRONG
 
-    if first_name or last_name or id_number or employee_id or manager_id or Role is None:
+    if Database.get_employee_by_employees_id(employee_id) is None:
         return "images/errors/wrong_username_or_password.jpg"
             #WRONG_USERNAME_OR_PASSWORD_ERROR
 

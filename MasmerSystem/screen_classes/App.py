@@ -442,16 +442,16 @@ class App:
                 username = self.__object_dict["username_textbox"].get_text()
                 password = self.__object_dict["password_textbox"].get_text()
                 # Check if the username and the password are correct
-                try:
-                    ans = check_login_details(username, password)
-                    if isinstance(ans, Employee):
-                        self.__employee = ans
-                        self.__display_task_manager_screen()
-                    else:
-                        self.__display_screen_error(ans)
-                except:
-                    print("The function check_login_details doesn't exist yet")
-                    self.__display_login_screen()
+                # try:
+                ans = check_login_details(username, password)
+                if isinstance(ans, Employee):
+                    self.__employee = ans
+                    self.__display_task_manager_screen()
+                else:
+                    self.__display_screen_error(ans)
+                # except:
+                #     print("The function check_login_details doesn't exist yet")
+                #     self.__display_login_screen()
 
                 return
 
