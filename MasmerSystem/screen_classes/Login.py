@@ -36,12 +36,12 @@ def check_login_details(username, password):
     if password_numbers_sum != username_numbers_sum:
         return "images/errors/wrong_username_or_password.jpg"
             #WRONG_USERNAME_OR_PASSWORD_ERROR
-    if EMPLOYEE[5] == "e":
-        return Employee(EMPLOYEE[0], EMPLOYEE[1], EMPLOYEE[2], EMPLOYEE[3], EMPLOYEE[4], EMPLOYEE[5])
-    if EMPLOYEE[5] == "h":
-        return Head(EMPLOYEE[0], EMPLOYEE[1], EMPLOYEE[2], EMPLOYEE[3], EMPLOYEE[4], EMPLOYEE[5])
-    if EMPLOYEE[5] == "m":
-        return Manager(EMPLOYEE[0], EMPLOYEE[1], EMPLOYEE[2], EMPLOYEE[3], EMPLOYEE[4], EMPLOYEE[5])
+    if employee[5] == "e":
+        return Employee(employee[0], employee[1], employee[2], employee[3], employee[4], employee[5])
+    if employee[5] == "h":
+        return Head(employee[0], employee[1], employee[2], employee[3], employee[4], employee[5])
+    if employee[5] == "m":
+        return Manager(employee[0], employee[1], employee[2], employee[3], employee[4], employee[5])
 
 
 
